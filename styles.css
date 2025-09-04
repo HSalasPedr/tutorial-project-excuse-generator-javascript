@@ -1,0 +1,15 @@
+body {
+    background: white;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#excuse {
+    margin: auto;
+    color: black;
+    font-size: 1.2rem;
+}
