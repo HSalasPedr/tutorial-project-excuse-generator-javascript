@@ -19,6 +19,3 @@ window.onload = function() {
   const displayedExcuse = generate_excuse();
   document.getElementById("excuse").innerHTML = displayedExcuse;
 };
-
-// const displayedExcuse = generate_excuse();
-// document.getElementById("excuse").innerHTML = displayedExcuse;
