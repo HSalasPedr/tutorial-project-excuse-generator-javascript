@@ -17,7 +17,7 @@ function generate_excuse () {
 // run function upon reload
 window.onload = function() {
   const displayedExcuse = generate_excuse();
-  document.getElementById("excuse").textContent = displayedExcuse;
+  document.getElementById("excuse").innerHTML = displayedExcuse;
 };
 
 // const displayedExcuse = generate_excuse();
